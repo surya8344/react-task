@@ -1,0 +1,63 @@
+// import React, { useEffect, useState } from 'react';
+// import { createStore } from 'redux'
+// import {Redux} from 'react-redux';
+// export default function ReduxPractice() {
+
+// initial state
+// const initialState = {counter : 0}
+// const [count , setCount] = useState(0)
+
+// useEffect(()=>{
+//     const state = store.getState();
+//     setCount(state.count)
+// })
+// const Increment = () => {
+
+// }
+// const Decrement = () => {
+   
+// }
+//create action creators
+// const Increment = () => {
+//     return {
+//         type: 'increment',
+//     }
+
+// }
+// const Decrement = () => {
+//     return {
+//         type: 'decrement',
+//     }
+// }
+//reducers
+// function countReducer(state=initialState , action){
+//     if(action.type === 'increment'){
+//         return{
+//             ...state,
+//             counter: state.value + 1,
+//         }
+//     }
+//     if(action.type === 'decrement'){
+//         return{
+//             ...state,
+//             counter: state.value - 1
+//         }
+//     }
+//     return state;
+// }
+// create store
+// const { createStore } = Redux;
+// const store = Redux.createStore(countReducer);
+// const state = store.getState();
+// console.log(state);
+
+//   return <div>
+//       <h2>Counter Example</h2>
+//       <h1>{state.counter}</h1>
+//       <div>
+//         <button onClick={Increment}>Increment</button>
+//         <button onClick={Decrement}>Decrement</button>
+//       </div>
+//   </div>;
+// }
+

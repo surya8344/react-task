@@ -1,0 +1,1 @@
+export const API_DATA = 'https://surya-8b46f-default-rtdb.asia-southeast1.firebasedatabase.app/posts.json'
